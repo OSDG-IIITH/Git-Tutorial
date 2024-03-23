@@ -1,0 +1,37 @@
+diff --git a/addMe.txt b/addMe.txt
+index 3760bec..9647133 100644
+--- a/addMe.txt
++++ b/addMe.txt
+@@ -7,3 +7,11 @@ blandit varius mi sed porttitor. Aliquam vehicula in justo euismod tempus.
+ Nullam aliquet ipsum nec tortor eleifend, vitae efficitur arcu molestie. Ut eu
+ tristique odio. Proin elementum egestas mauris, ut molestie augue sagittis
+ eget. Quisque sed sem ex. Nunc ultricies nisl justo.
++
++Vestibulum sed porta tortor. Maecenas malesuada erat sit amet neque gravida,
++nec cursus tellus tincidunt. Duis commodo eget sem et suscipit. Integer sed
++iaculis turpis. Fusce vulputate sed felis quis dignissim. Duis rhoncus sed
++nibh feugiat dignissim. In viverra nisi nunc, a rhoncus dolor accumsan vel. In
++fermentum, tortor ut laoreet posuere, odio quam placerat odio, efficitur
++ultricies augue nisi quis neque. Cras vel egestas augue. In vestibulum ut diam
++sit amet consectetur.
+diff --git a/status.txt b/status.txt
+index 4539feb..63ecf1d 100644
+--- a/status.txt
++++ b/status.txt
+@@ -1,9 +1,10 @@
+ On branch add-commit
+-Your branch is up to date with 'origin/add-commit'.
++Your branch is ahead of 'origin/add-commit' by 1 commit.
++  (use "git push" to publish your local commits)
+ 
+-Untracked files:
+-  (use "git add <file>..." to include in what will be committed)
+-	addMe.txt
+-	status.txt
++Changes not staged for commit:
++  (use "git add <file>..." to update what will be committed)
++  (use "git restore <file>..." to discard changes in working directory)
++	modified:   status.txt
+ 
+-nothing added to commit but untracked files present (use "git add" to track)
++no changes added to commit (use "git add" and/or "git commit -a")
